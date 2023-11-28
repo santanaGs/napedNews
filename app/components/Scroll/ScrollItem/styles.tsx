@@ -28,12 +28,24 @@ export const ImageDiv = styled.div<imageProps>`
     &:hover{
         scale: 1.03;
     }
+
+    @media screen and (max-width: 768px){
+        width: 9rem;
+        height: 6.875rem;
+        flex-shrink: 0;
+    }
 `
 
 export const ImageLinnear = styled.div`
     background: linear-gradient(0deg, #13131F 0%, rgba(19, 19, 31, 0.00) 100%);
     width: 12.5rem;
     height: 9.4375rem;
+
+    @media screen and (max-width: 768px){
+        width: 9rem;
+        height: 6.875rem;
+        flex-shrink: 0;
+    }
 `
 
 export const TextDiv = styled.div`
@@ -60,6 +72,10 @@ export const Description = styled.p`
     font-weight: 400;
     line-height: 1rem; /* 145.455% */
     width: 20.625rem;
+
+    @media screen and (max-width: 768px){
+        display: none;
+    }
 `
 
 export const Date = styled.p`
@@ -89,6 +105,10 @@ export const Read = styled(Link)`
     &:hover{
         background: #5e3ea8;
     }
+
+    @media screen and (max-width: 768px){
+        width: 90%;
+    }
 `
 
 export const ButtonS = styled.p`
@@ -107,4 +127,6 @@ export const ButtonS = styled.p`
     position: absolute;
     top: 5%;
     left: 1%;
+
+
 `

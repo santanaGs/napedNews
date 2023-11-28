@@ -159,6 +159,7 @@ export default function Scroll() {
                     {novidades.map((item, index) => {
                         return (
                             <Item
+                                key={index}
                                 image={item.image}
                                 categorie={item.category}
                                 description={item.description}

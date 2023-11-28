@@ -19,7 +19,7 @@ export default function ScrollItem(props: scrollProps){
                 </ImageLinnear>
             </ImageDiv>
             <TextDiv>
-                <Text>{props.title}</Text>
+                <Text>{props.title?.slice(0, 55)}...</Text>
                 <Description>{props.description}</Description>
                 <Date>{props.date}</Date>
                 <Read href={`${props.link}`}>Ler notícia</Read>

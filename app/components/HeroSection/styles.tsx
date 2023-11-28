@@ -4,6 +4,10 @@ import styled from 'styled-components'
 // Styled
 export const Section = styled.section`
     padding-top: 6rem;
+
+    @media screen and (max-width: 768px) {
+        padding-top: 2rem;    
+    }
 `
 
 export const Title = styled.h1`
@@ -14,6 +18,10 @@ export const Title = styled.h1`
     font-weight: 400;
     line-height: normal;
     width: 19rem;
+
+    @media screen and (max-width: 768px) {
+        font-size: 1.5rem;
+    }
 `
 
 export const SubTitle = styled.p`
@@ -25,4 +33,10 @@ export const SubTitle = styled.p`
     line-height: 2rem; /* 160% */
     width: 30.75rem;
     margin-top: 0.7rem;
+
+    @media screen and (max-width: 768px) {
+        font-size: 0.875rem;
+        width: 19.5rem;
+        line-height: 140%; /* 1.225rem */
+    }
 `

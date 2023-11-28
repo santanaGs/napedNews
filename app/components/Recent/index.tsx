@@ -72,6 +72,7 @@ export default function Recent(){
             {novidades.map((item, index) => {
                         return (
                             <Item
+                                key={index}
                                 image={item.image}
                                 categorie={item.category}
                                 description={item.description}

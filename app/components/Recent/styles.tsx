@@ -10,4 +10,8 @@ export const Grid = styled.div`
     column-gap: 3.25rem;
     row-gap: 2.63rem;
     margin-top: 2.45rem;
+
+    @media screen and (max-width: 768px){
+        grid-template-columns: 1fr 
+    }
 `

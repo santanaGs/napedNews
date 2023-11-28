@@ -2,6 +2,7 @@
 
 
 import Emphasis from "./components/Emphasis";
+import Footer from "./components/Footer";
 // Sections
 import Header from "./components/Header";
 import Hero from "./components/HeroSection";
@@ -19,6 +20,7 @@ export default function Home() {
         <Scroll/>
         <Recent/>
       </Container>
+      <Footer/>
     </>
   )
 }

@@ -12,6 +12,10 @@ export const Content = styled.div`
     display: flex;
     gap: 1.25rem;
     margin-top: 5rem;
+
+    @media screen and (max-width: 768px) {
+     flex-direction: column;   
+    }
 `
 
 export const FirstContent = styled.div<newsProps>`
@@ -44,6 +48,16 @@ export const Description = styled.p`
     font-weight: 400;
     line-height: 2.125rem; /* 141.667% */
     width: 43.8125rem;
+
+    @media screen and (max-width: 768px) {
+        width: 17rem;
+        height: 4.5rem;
+        flex-shrink: 0;
+        font-size: 0.875rem;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 1.125rem; /* 128.571% */
+    }
 `
 
 export const DivSTwo = styled.div`
