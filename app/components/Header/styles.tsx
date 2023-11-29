@@ -36,7 +36,7 @@ export const Nav = styled.ul<navProps>`
         gap: 2rem;
         padding: 3rem;
 
-        transform: translateX(${props => props.active ? '-700px' : '0px'});
+        transform: translateX(${props => props.active ? '0px' : '-700px'});
     }
 `
 
