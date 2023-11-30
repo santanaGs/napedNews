@@ -49,22 +49,22 @@ const Header: React.FC = () => {
                         </MenuInt>
                     )}
                     <NavItems>
-                        <NavLink href="/">Home</NavLink>
+                        <NavLink href={`/`}>Home</NavLink>
                     </NavItems>
                     <NavItems>
-                        <NavLink href="/">Séries</NavLink>
+                        <NavLink href="/search/series">Séries</NavLink>
                     </NavItems>
                     <NavItems>
-                        <NavLink href="/">Filmes</NavLink>
+                        <NavLink href="/search/filmes">Filmes</NavLink>
                     </NavItems>
                     <NavItems>
-                        <NavLink href="/">Animes</NavLink>
+                        <NavLink href="/search/animes">Animes</NavLink>
                     </NavItems>
                     <NavItems>
-                        <NavLink href="/">Games</NavLink>
+                        <NavLink href="/search/games">Games</NavLink>
                     </NavItems>
                 </Nav>
-                <Account href="/">Miha conta</Account>
+                <Account href="/">Minha conta</Account>
             </DivS>
         </NavBar>
     )

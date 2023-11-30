@@ -1,5 +1,4 @@
-"use client";
-
+"use client"
 
 import Emphasis from "./components/Emphasis";
 import Footer from "./components/Footer";
